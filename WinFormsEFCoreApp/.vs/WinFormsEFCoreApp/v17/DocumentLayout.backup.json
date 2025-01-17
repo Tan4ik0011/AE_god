@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD63F9A-6A10-4917-906E-CCBFAE6E1861}|..\\MetricTest\\MetricTest.csproj|c:\\users\\user\\desktop\\metrictest\\presentationlayertests\\editformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD63F9A-6A10-4917-906E-CCBFAE6E1861}|..\\MetricTest\\MetricTest.csproj|c:\\users\\user\\desktop\\metrictest\\presentationlayertests\\mainformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD63F9A-6A10-4917-906E-CCBFAE6E1861}|..\\MetricTest\\MetricTest.csproj|c:\\users\\user\\desktop\\metrictest\\metrictest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|c:\\users\\user\\desktop\\winformsefcoreapp\\editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C7BDB6-048F-4552-A942-98BB1FAF1753}|WinFormsEFCoreApp.csproj|solutionrelative:editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.cs",
+              "RelativeDocumentMoniker": "EditForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.cs",
+              "RelativeToolTip": "EditForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:38:50.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditFormTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MetricTest\\PresentationLayerTests\\EditFormTests.cs",
+              "RelativeDocumentMoniker": "..\\MetricTest\\PresentationLayerTests\\EditFormTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MetricTest\\PresentationLayerTests\\EditFormTests.cs",
+              "RelativeToolTip": "..\\MetricTest\\PresentationLayerTests\\EditFormTests.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwHEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:38:39.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MetricTest",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MetricTest\\MetricTest.csproj",
+              "RelativeDocumentMoniker": "..\\MetricTest\\MetricTest.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MetricTest\\MetricTest.csproj",
+              "RelativeToolTip": "..\\MetricTest\\MetricTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-17T04:33:36.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:23:18.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainFormTests.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MetricTest\\PresentationLayerTests\\MainFormTests.cs",
+              "RelativeDocumentMoniker": "..\\MetricTest\\PresentationLayerTests\\MainFormTests.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MetricTest\\PresentationLayerTests\\MainFormTests.cs",
+              "RelativeToolTip": "..\\MetricTest\\PresentationLayerTests\\MainFormTests.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwGwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:15:41.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAvwDcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:13:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:13:20.912Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.Designer.cs",
+              "RelativeDocumentMoniker": "EditForm.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.Designer.cs",
+              "RelativeToolTip": "EditForm.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:13:06.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.cs",
+              "RelativeDocumentMoniker": "EditForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\WinFormsEFCoreApp\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:12:48.87Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
