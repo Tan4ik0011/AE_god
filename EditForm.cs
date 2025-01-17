@@ -1,97 +1,82 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using System;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsEFCoreApp
 {
     public partial class EditForm : Form
     {
-        private readonly string _tableName;
         private readonly object _record;
+        private readonly string _table;
 
-        public bool IsSaved { get; private set; } = false; // Указывает, были ли сохранены изменения
+        public bool IsSaved { get; private set; }
 
-        public EditForm(string tableName, object record)
+        public EditForm(string table, object record)
         {
             InitializeComponent();
-            _tableName = tableName;
+            _table = table;
             _record = record;
-            PopulateFields();
-        }
 
-        private void PopulateFields()
-        {
-            switch (_tableName)
+            // В зависимости от типа таблицы, динамически инициализируем поля формы
+            if (_record != null)
             {
-                case "Files":
-                    var file = (File)_record;
+                if (_table == "Files")
+                {
+                    var file = _record as File;
                     textBox1.Text = file.FileName;
                     textBox2.Text = file.FilePath;
                     textBox3.Text = file.Lines.ToString();
-                    textBox4.Text = file.AnalysisDate.ToString();
-                    break;
-
-                case "Classes":
-                    var classEntity = (Class)_record;
+                    textBox4.Text = file.AnalysisDate.ToString("yyyy-MM-dd");
+                }
+                else if (_table == "Classes")
+                {
+                    var classEntity = _record as Class;
                     textBox1.Text = classEntity.ClassName;
                     textBox2.Text = classEntity.StartLine.ToString();
                     textBox3.Text = classEntity.EndLine.ToString();
-                    break;
-
-                case "Methods":
-                    var method = (Method)_record;
+                    textBox4.Text = classEntity.MethodsCount.ToString();
+                }
+                else if (_table == "Methods")
+                {
+                    var method = _record as Method;
                     textBox1.Text = method.MethodName;
                     textBox2.Text = method.StartLine.ToString();
                     textBox3.Text = method.EndLine.ToString();
-                    break;
+                    textBox4.Text = method.Class.ClassName; // Название класса, которому принадлежит метод
+                }
             }
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            switch (_tableName)
+            if (_table == "Files")
             {
-                case "Files":
-                    var file = (File)_record;
-                    file.FileName = textBox1.Text;
-                    file.FilePath = textBox2.Text;
-                    file.Lines = int.Parse(textBox3.Text);
-                    file.AnalysisDate = DateTime.Parse(textBox4.Text);
-                    break;
-
-                case "Classes":
-                    var classEntity = (Class)_record;
-                    classEntity.ClassName = textBox1.Text;
-                    classEntity.StartLine = int.Parse(textBox2.Text);
-                    classEntity.EndLine = int.Parse(textBox3.Text);
-                    break;
-
-                case "Methods":
-                    var method = (Method)_record;
-                    method.MethodName = textBox1.Text;
-                    method.StartLine = int.Parse(textBox2.Text);
-                    method.EndLine = int.Parse(textBox3.Text);
-                    break;
+                var file = _record as File;
+                file.FileName = textBox1.Text;
+                file.FilePath = textBox2.Text;
+                file.Lines = int.Parse(textBox3.Text);
+                file.AnalysisDate = DateTime.Parse(textBox4.Text);
+                IsSaved = true;
+            }
+            else if (_table == "Classes")
+            {
+                var classEntity = _record as Class;
+                classEntity.ClassName = textBox1.Text;
+                classEntity.StartLine = int.Parse(textBox2.Text);
+                classEntity.EndLine = int.Parse(textBox3.Text);
+                classEntity.MethodsCount = int.Parse(textBox4.Text);
+                IsSaved = true;
+            }
+            else if (_table == "Methods")
+            {
+                var method = _record as Method;
+                method.MethodName = textBox1.Text;
+                method.StartLine = int.Parse(textBox2.Text);
+                method.EndLine = int.Parse(textBox3.Text);
+                method.Class.ClassName = textBox4.Text; // Если нужно обновить имя класса, можно изменить этот момент
+                IsSaved = true;
             }
 
-            IsSaved = true; // Указываем, что изменения сохранены
-            this.Close();
-        }
-
-        private void CancelButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            Close();
         }
     }
 }
-

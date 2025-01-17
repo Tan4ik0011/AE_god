@@ -1,4 +1,5 @@
-﻿namespace WinFormsEFCoreApp
+﻿
+namespace WinFormsEFCoreApp
 {
     partial class MainForm
     {
@@ -144,6 +145,11 @@
             Load += MainForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
